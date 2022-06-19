@@ -12,3 +12,17 @@ body {
    font-size: 1rem;
    color: #132B50;
 }
+
+.container-wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+input, textarea {
+   outline: none;
+}
+
+h2 {
+   margin: 0;
+}

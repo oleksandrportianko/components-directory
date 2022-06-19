@@ -1,0 +1,16 @@
+.back-button {
+   cursor: pointer;
+   padding: 5px 20px;
+   display: flex;
+   align-items: center;
+
+   .back-arrow {
+      height: 20px;
+      filter: invert(11%) sepia(74%) saturate(1214%) hue-rotate(193deg) brightness(97%) contrast(94%);
+   }
+
+   span {
+      font-weight: 600;
+   }
+
+}
