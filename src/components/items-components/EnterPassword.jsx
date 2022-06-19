@@ -8,9 +8,14 @@ import './EnterPassword.scss'
 
 const EnterPassword = () => {
    const [showPassword, setShowPassword] = useState(false)
+   const [staySignIn, setStaySignIn] = useState(false)
 
    const handleVisibilityPassword = () => {
       setShowPassword(!showPassword)
+   }
+
+   const handleStaySignIn = () => {
+      setStaySignIn(!staySignIn)
    }
 
    return (
@@ -39,8 +44,8 @@ const EnterPassword = () => {
                   </div>
                   <div className='content-continue-block'>
                      <div className='continue-stay-signin'>
-                        <div className='stay-signin-toggle'>
-                           <img src={toggleCircle} alt="" />
+                        <div className='stay-signin-toggle' onClick={handleStaySignIn}>
+                           <img className={staySignIn ? 'stay-sign-in-active' : ''} src={toggleCircle} alt="" />
                         </div>
                         <span>Stay signed in</span>
                      </div>
