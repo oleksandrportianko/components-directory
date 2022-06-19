@@ -26,3 +26,16 @@ input, textarea {
 h2 {
    margin: 0;
 }
+
+.downowload-button-block {
+   width: 100%;
+
+   .downowload-button {
+      background-color: #132B50;
+      color: white;
+      text-decoration: none;
+      width: 120px;
+      height: 40px;
+      margin-right: 20px;
+   }
+}

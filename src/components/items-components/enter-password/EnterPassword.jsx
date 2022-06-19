@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import BackButton from '../page-components/back-button/BackButton'
-import userImage from '../../assets/user-image.svg'
-import closeEye from '../../assets/close-eye-password.svg'
-import toggleCircle from '../../assets/toggle-circle.svg'
-import lockInput from '../../assets/lock-for-password-input.svg'
+import { Link } from 'react-router-dom'
+import BackButton from '../../page-components/back-button/BackButton'
+import userImage from '../../../assets/user-image.svg'
+import closeEye from '../../../assets/close-eye-password.svg'
+import toggleCircle from '../../../assets/toggle-circle.svg'
+import lockInput from '../../../assets/lock-for-password-input.svg'
 import './EnterPassword.scss'
 
 const EnterPassword = () => {
@@ -56,6 +57,9 @@ const EnterPassword = () => {
                   <button className='content-reset-password'>Reset password</button>
                </div>
             </div>
+         </div>
+         <div className='downowload-button-block'>
+            <Link className='downowload-button' to="/files/enter-password.zip" target="_blank" download>Download</Link>
          </div>
       </div>
    )
