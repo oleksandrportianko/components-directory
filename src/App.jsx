@@ -4,6 +4,7 @@ import CookiePreferencesModal from './components/items-components/cookie-prefere
 import EnterPassword from './components/items-components/enter-password/EnterPassword';
 import './App.scss'
 import ProfilePageHeader from './components/items-components/profile-page-header/ProfilePageHeader';
+import DropdownAndSearch from './components/items-components/dropdown-and-search/DropdownAndSearch';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path='enter-password-ui' element={<EnterPassword />} />
             <Route path='cookie-preferences-modal' element={<CookiePreferencesModal />} />
             <Route path='profile-page-header' element={<ProfilePageHeader />} />
+            <Route path='dropdown-and-search' element={<DropdownAndSearch />} />
          </Route> 
       </Routes>
     </div>
