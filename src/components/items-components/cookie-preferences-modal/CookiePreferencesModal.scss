@@ -32,6 +32,195 @@
          box-shadow: 20px 34px 74px rgba(21, 21, 106, 0.07);
          border-radius: 32px;
          z-index: 5;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+
+         .info-allow-block {
+            width: 463px;
+            height: 223px;
+            margin-top: 54px;
+
+            span {
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 600;
+               font-size: 18px;
+               line-height: 22px;
+            }
+
+            p {
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 14px;
+               line-height: 17px;
+               color: #131339;
+               margin-top: 16px;
+            }
+
+            button {
+               width: 103px;
+               height: 49px;
+               color: white;
+               background: #131339;
+               border-radius: 32px;
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 14px;
+               line-height: 17px;
+               margin-top: 16px;
+            }
+         }
+
+         .info-preferences-block {
+            margin-top: 40px;
+            width: 463px;
+
+            .item-settings {
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 19px;
+               color: #131339;
+               width: 271px;
+               margin-right: 16px;
+            }
+
+            .item-settings-big {
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 19px;
+               color: #131339;
+               width: 333px;
+               margin-right: 16px;
+            }
+
+            .preferences-title {
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 600;
+               font-size: 16px;
+               line-height: 19px;
+               color: #131339;
+               margin-bottom: 16px;
+            }
+
+            .preference-items {
+               display: flex;
+               flex-direction: column;
+            
+               div {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  background-color: white;
+                  width: 463px;
+                  height: 54px;
+                  border-radius: 8px;
+                  margin-bottom: 4px;
+
+                  img {
+                     margin: 0 16px;
+                  }
+               }
+
+               .item-personalized {
+                  height: 89px;
+               }
+
+               .item-toggle {
+                  width: 44px;
+                  height: 26px;
+                  background: #F1F4FD;
+                  border: 1px solid #D2D9EF;
+                  border-radius: 32px;
+                  display: flex;
+                  align-items: center;
+                  transition: 0.5s;
+
+                  .toggle-circle {
+                     width: 18px;
+                     height: 18px;
+                     background: #131339;
+                     border-radius: 32px;
+                     margin-left: 5px;
+                     transition: 0.5s;
+                  }
+               }
+
+               .item-toggle-active {
+                  width: 44px;
+                  height: 26px;
+                  background: #131339;
+                  border: 1px solid #D2D9EF;
+                  border-radius: 32px;
+                  display: flex;
+                  align-items: center;
+                  transition: 0.5s;
+
+                  .toggle-circle {
+                     width: 18px;
+                     height: 18px;
+                     background: #F1F4FD;
+                     border-radius: 32px;
+                     margin-left: 20px;
+                     transition: 0.5s;
+                  }
+               }
+
+               .item-stricktly {
+                  .item-value {
+                     font-family: 'Inter';
+                     font-style: normal;
+                     font-weight: 400;
+                     font-size: 16px;
+                     line-height: 19px;
+                     color: #131339;
+                     opacity: 0.5;
+                  }
+               }
+            }
+         }
+
+         .buttons-block {
+            display: flex;
+            width: 463px;
+            margin-top: 16px;
+
+            .button-reject {
+               width: 108px;
+               height: 49px;
+               background: #131339;
+               border: none;
+               border-radius: 32px;
+               margin-right: 8px;
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 14px;
+               line-height: 17px;
+               color: #FFFFFF;
+            }
+
+            .button-submit {
+               width: 176px;
+               height: 49px;
+               background: #131339;
+               border-radius: 32px;
+               font-family: 'Inter';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 14px;
+               line-height: 17px;
+               color: #FFFFFF;
+               border: none;
+            }
+         }
       }
    }
 }
