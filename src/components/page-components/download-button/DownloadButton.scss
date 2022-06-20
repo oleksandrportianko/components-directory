@@ -1,0 +1,22 @@
+.downowload-button-block {
+   width: 100%;
+   display: flex;
+   justify-content: end;
+
+   span {
+      width: 200px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #132B50;
+      border-radius: 5px;
+      margin-right: 20px;
+
+      .downowload-button {
+         background-color: transparent;
+         color: white;
+         text-decoration: none;
+      }
+   }
+}
