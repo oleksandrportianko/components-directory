@@ -44,7 +44,7 @@ const DropdownAndSearch = () => {
                </div>
             </div>
          </div>
-         <DownloadButton url='/files/' />
+         <DownloadButton url='/files/dropdown-and-search.zip' />
       </div>
    )
 }
