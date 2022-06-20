@@ -4,9 +4,9 @@ import './DownloadButton.scss'
 
 const DownloadButton = ({ url }) => {
    return (
-      <div className='downowload-button-block'>
+      <div className='download-button-block'>
          <span>
-            <Link className='downowload-button' to={url} target="_blank" download>Download code</Link>
+            <Link className='download-button' to={url} target="_blank" download>Download code</Link>
          </span>
       </div>
    )

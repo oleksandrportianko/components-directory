@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import MainPage from './pages/MainPage';
+import CookiePreferencesModal from './components/items-components/cookie-preferences-modal/CookiePreferencesModal';
 import EnterPassword from './components/items-components/enter-password/EnterPassword';
 import './App.scss'
 
@@ -10,6 +11,7 @@ function App() {
          <Route path='/' element={<MainPage />}  />
          <Route path='/component/' >
             <Route path='enter-password-ui' element={<EnterPassword />} />
+            <Route path='cookie-preferences-modal' element={<CookiePreferencesModal />} />
          </Route> 
       </Routes>
     </div>
