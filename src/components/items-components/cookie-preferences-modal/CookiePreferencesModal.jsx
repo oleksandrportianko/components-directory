@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import BackButton from '../../page-components/back-button/BackButton'
 import DownloadButton from '../../page-components/download-button/DownloadButton'
-import PrivicyPlus from '../../../assets/privicy-plus.svg'
+import privicyPlus from '../../../assets/privicy-plus.svg'
 import './CookiePreferencesModal.scss'
 
 const CookiePreferencesModal = () => {
@@ -44,26 +44,26 @@ const CookiePreferencesModal = () => {
                      <span className='preferences-title'>Manage Consent Preferences</span>
                      <div className='preference-items'>
                         <div className='item-stricktly'>
-                           <img src={PrivicyPlus} alt="" />
+                           <img src={privicyPlus} alt="" />
                            <span className='item-settings'>Strictly Necessary Cookies</span>
                            <span className='item-value'>Always Active</span>
                         </div>
                         <div className='item-functional'>
-                           <img src={PrivicyPlus} alt="" />
+                           <img src={privicyPlus} alt="" />
                            <span className='item-settings-big'>Functional Cookies</span>
                            <div onClick={handleFunctionalCookie} className={ functionalCookieToggle ? 'item-toggle-active' : 'item-toggle'}>
                               <span className='toggle-circle'></span>
                            </div>
                         </div>
                         <div className='item-performance'>
-                           <img src={PrivicyPlus} alt="" />
+                           <img src={privicyPlus} alt="" />
                            <span className='item-settings-big'>Performance Cookies</span>
                            <div onClick={handlePerformanceCookie} className={ performanceCookieToggle ? 'item-toggle-active' : 'item-toggle'}>
                               <span className='toggle-circle'></span>
                            </div>
                         </div>
                         <div className='item-personalized'>
-                           <img src={PrivicyPlus} alt="" />
+                           <img src={privicyPlus} alt="" />
                            <span className='item-settings-big'>Personalised ads and content measurement, audience insights and product development</span>
                            <div onClick={handlePersonalizedCookie} className={ personalizedCookieToggle ? 'item-toggle-active' : 'item-toggle'}>
                               <span className='toggle-circle'></span>
