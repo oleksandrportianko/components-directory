@@ -2,9 +2,10 @@ import { Routes, Route } from 'react-router-dom'
 import MainPage from './pages/MainPage';
 import CookiePreferencesModal from './components/items-components/cookie-preferences-modal/CookiePreferencesModal';
 import EnterPassword from './components/items-components/enter-password/EnterPassword';
-import './App.scss'
 import ProfilePageHeader from './components/items-components/profile-page-header/ProfilePageHeader';
 import DropdownAndSearch from './components/items-components/dropdown-and-search/DropdownAndSearch';
+import ProductInfoUiDesign from './components/items-components/product-info-ui-design/ProductInfoUiDesign';
+import './App.scss'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path='cookie-preferences-modal' element={<CookiePreferencesModal />} />
             <Route path='profile-page-header' element={<ProfilePageHeader />} />
             <Route path='dropdown-and-search' element={<DropdownAndSearch />} />
+            <Route path='product-info-ui-design' element={<ProductInfoUiDesign />} />
          </Route> 
       </Routes>
     </div>
