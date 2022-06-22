@@ -1,0 +1,180 @@
+.filter-modal-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   min-height: 85vh;
+
+   .filter-modal-content {
+      width: 524px;
+      height: 927px;
+      position: relative;
+   }
+
+   .filter-block-background {
+      position: absolute;
+      width: 501px;
+      height: 872px;
+      background: #1B183C;
+      border-radius: 60px;
+   }
+
+   .filter-content-info {
+      position: absolute;
+      width: 484px;
+      height: 887px;
+      top: 40px;
+      left: 40px;
+      background: #322E59;
+      border-radius: 60px;
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+
+      .content-title {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+
+         span {
+            font-family: 'Merriweather';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+            color: #BCBACF;
+         }
+      }
+
+      .content-label-search {
+         margin-top: 40px;
+         font-family: 'Mulish';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 20px;
+         text-transform: uppercase;
+         color: #BCBACF;
+         margin-bottom: 8px;
+      }
+
+      .content-search-block {
+         width: 344px;
+         height: 68px;
+         background: #232044;
+         border-radius: 8px;
+         display: flex;
+         align-items: center;
+
+         img {
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(316deg) brightness(105%) contrast(101%);
+            margin: 0 16px;
+         }
+         
+         .search-input {
+            width: 100%;
+            height: 68px;
+            background-color: transparent;
+            border: none;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: #BCBACF;
+         }
+      }
+
+      .content-view-block {
+         margin-top: 40px;
+         display: flex;
+         flex-direction: column;
+
+         .view-field-text {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: #BCBACF;
+            margin-left: 8px;
+         }
+
+         .view-title {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #BCBACF;
+            margin-bottom: 16px;
+         }
+
+         .view-field {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+         }
+      }
+
+      .content-include {
+         display: flex;
+         flex-direction: column;
+         margin-top: 40px;
+
+         .include-title {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #BCBACF;
+         }
+      }
+
+      .include-toggle-block {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         margin-top: 16px;
+
+         .include-image {
+            width: 38px;
+            height: 38px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #BCBACF;
+         }
+
+         span {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: #BCBACF;
+            margin-left: 16px;
+         }
+      }
+
+      .content-button {
+         width: 344px;
+         height: 67px;
+         background: #FFBB56;
+         border-radius: 8px;
+         border: none;
+         margin-top: 126px;
+         font-family: 'Mulish';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 18px;
+         line-height: 23px;
+         color: #232044;
+      }
+   }
+}

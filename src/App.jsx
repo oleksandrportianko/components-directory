@@ -5,6 +5,7 @@ import EnterPassword from './components/items-components/enter-password/EnterPas
 import ProfilePageHeader from './components/items-components/profile-page-header/ProfilePageHeader';
 import DropdownAndSearch from './components/items-components/dropdown-and-search/DropdownAndSearch';
 import ProductInfoUiDesign from './components/items-components/product-info-ui-design/ProductInfoUiDesign';
+import FilterModal from './components/items-components/filter-modal/FilterModal';
 import './App.scss'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path='profile-page-header' element={<ProfilePageHeader />} />
             <Route path='dropdown-and-search' element={<DropdownAndSearch />} />
             <Route path='product-info-ui-design' element={<ProductInfoUiDesign />} />
+            <Route path='filter-modal' element={<FilterModal />} />
          </Route> 
       </Routes>
     </div>

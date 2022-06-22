@@ -3,6 +3,7 @@ import cookiePreferencesModal from '../assets/cookie-preferences-modal.png';
 import profilePageHeader from '../assets/profile-page-header.png';
 import dropdownAndSearch from '../assets/dropdown-and-search.png';
 import productInfoUiDesign from '../assets/product-info-ui-design.png';
+import filterModal from '../assets/filter-modal.png';
 
 export const DATA_COMPONENTS = [
    { id: 1, name: 'Enter password UI design', imageUrl: enterPasswordUiDesign, linkTo: 'enter-password-ui'},
@@ -10,4 +11,5 @@ export const DATA_COMPONENTS = [
    { id: 3, name: 'Profile Page Header', imageUrl: profilePageHeader, linkTo: 'profile-page-header'},
    { id: 4, name: 'Dropdown and Search', imageUrl: dropdownAndSearch, linkTo: 'dropdown-and-search'},
    { id: 5, name: 'Product Info UI Design', imageUrl: productInfoUiDesign, linkTo: 'product-info-ui-design'},
+   { id: 6, name: 'Filter Modal', imageUrl: filterModal, linkTo: 'filter-modal'},
 ]
