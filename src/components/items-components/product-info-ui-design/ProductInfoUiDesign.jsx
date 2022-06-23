@@ -1,10 +1,10 @@
 import React from 'react'
 import BackButton from '../../page-components/back-button/BackButton'
 import DownloadButton from '../../page-components/download-button/DownloadButton'
-import razerHeadphones from '../../../assets/razer-headphones.svg'
-import greenIconCircle from '../../../assets/green-icon-circle.svg'
-import comparisonIcon from '../../../assets/comparison-icon.svg'
-import whiteHeartIcon from '../../../assets/white-heart-icon.svg'
+import razerHeadphones from '../../../assets/product-info-ui-design-images/razer-headphones.svg'
+import greenIconCircle from '../../../assets/product-info-ui-design-images/green-icon-circle.svg'
+import comparisonIcon from '../../../assets/product-info-ui-design-images/comparison-icon.svg'
+import whiteHeartIcon from '../../../assets/product-info-ui-design-images/white-heart-icon.svg'
 import './ProductInfoUiDesign.scss'
 
 const ProductInfoUiDesign = () => {

@@ -1,10 +1,10 @@
-import enterPasswordUiDesign from '../assets/enter_password_ui_design.png';
-import cookiePreferencesModal from '../assets/cookie-preferences-modal.png';
-import profilePageHeader from '../assets/profile-page-header.png';
-import dropdownAndSearch from '../assets/dropdown-and-search.png';
-import productInfoUiDesign from '../assets/product-info-ui-design.png';
-import filterModal from '../assets/filter-modal.png';
-import pricingCard from '../assets/pricing-card.png';
+import enterPasswordUiDesign from '../assets/components-images/enter_password_ui_design.png';
+import cookiePreferencesModal from '../assets/components-images/cookie-preferences-modal.png';
+import profilePageHeader from '../assets/components-images/profile-page-header.png';
+import dropdownAndSearch from '../assets/components-images/dropdown-and-search.png';
+import productInfoUiDesign from '../assets/components-images/product-info-ui-design.png';
+import filterModal from '../assets/components-images/filter-modal.png';
+import pricingCard from '../assets/components-images/pricing-card.png';
 
 export const DATA_COMPONENTS = [
    { id: 1, name: 'Enter password UI design', imageUrl: enterPasswordUiDesign, linkTo: 'enter-password-ui'},

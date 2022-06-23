@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import DownloadButton from '../../page-components/download-button/DownloadButton'
 import BackButton from '../../page-components/back-button/BackButton'
-import dropdownArrowTop from '../../../assets/dropdown-arrow-top.svg'
-import searchLoop from '../../../assets/search-loop.svg'
+import dropdownArrowTop from '../../../assets/dropdown-and-search-images/dropdown-arrow-top.svg'
+import searchLoop from '../../../assets/dropdown-and-search-images/search-loop.svg'
 import './DropdownAndSearch.scss'
 
 const DropdownAndSearch = () => {

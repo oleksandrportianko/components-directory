@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import BackButton from '../../page-components/back-button/BackButton'
 import DownloadButton from '../../page-components/download-button/DownloadButton'
-import closeIcon from '../../../assets/close-icon.svg'
-import searchLoop from '../../../assets/search-loop.svg'
-import filterViewCircle from '../../../assets/filter-view-circle.svg'
-import filterViewCircleActive from '../../../assets/filter-view-circle-active.svg'
-import filterIncludeToggle from '../../../assets/filter-include-toggle.svg'
+import closeIcon from '../../../assets/filtering-modal-images/close-icon.svg'
+import searchLoop from '../../../assets/filtering-modal-images/search-loop.svg'
+import filterViewCircle from '../../../assets/filtering-modal-images/filter-view-circle.svg'
+import filterViewCircleActive from '../../../assets/filtering-modal-images/filter-view-circle-active.svg'
+import filterIncludeToggle from '../../../assets/filtering-modal-images/filter-include-toggle.svg'
 import './FilterModal.scss'
 
 const FilterModal = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import BackButton from '../../page-components/back-button/BackButton'
 import DownloadButton from '../../page-components/download-button/DownloadButton'
-import privicyPlus from '../../../assets/privicy-plus.svg'
+import privicyPlus from '../../../assets/cookie-preferences-modal-images/privicy-plus.svg'
 import './CookiePreferencesModal.scss'
 
 const CookiePreferencesModal = () => {

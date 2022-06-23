@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import BackButton from '../../page-components/back-button/BackButton'
-import userImage from '../../../assets/user-image.svg'
-import closeEye from '../../../assets/close-eye-password.svg'
-import toggleCircle from '../../../assets/toggle-circle.svg'
-import lockInput from '../../../assets/lock-for-password-input.svg'
-import './EnterPassword.scss'
 import DownloadButton from '../../page-components/download-button/DownloadButton'
+import BackButton from '../../page-components/back-button/BackButton'
+import userImage from '../../../assets/enter-password-images/user-image.svg'
+import closeEye from '../../../assets/enter-password-images/close-eye-password.svg'
+import toggleCircle from '../../../assets/enter-password-images/toggle-circle.svg'
+import lockInput from '../../../assets/enter-password-images/lock-for-password-input.svg'
+import './EnterPassword.scss'
 
 const EnterPassword = () => {
    const [showPassword, setShowPassword] = useState(false)

@@ -1,12 +1,12 @@
 import React from 'react'
 import BackButton from '../../page-components/back-button/BackButton'
 import DownloadButton from '../../page-components/download-button/DownloadButton'
-import profileHeaderUser from '../../../assets/profile-header-user.svg'
-import profileHeaderGithub from '../../../assets/profile-header-github.svg'
-import profileHeaderLinkedin from '../../../assets/profile-header-linkedin.svg'
-import profileHeaderMetamask from '../../../assets/profile-header-metamask.svg'
-import profileHeaderEthereum from '../../../assets/profile-header-ethereum.svg'
-import profileHeaderDetails from '../../../assets/profile-header-details.svg'
+import profileHeaderUser from '../../../assets/profile-page-header-images/profile-header-user.svg'
+import profileHeaderGithub from '../../../assets/profile-page-header-images/profile-header-github.svg'
+import profileHeaderLinkedin from '../../../assets/profile-page-header-images/profile-header-linkedin.svg'
+import profileHeaderMetamask from '../../../assets/profile-page-header-images/profile-header-metamask.svg'
+import profileHeaderEthereum from '../../../assets/profile-page-header-images/profile-header-ethereum.svg'
+import profileHeaderDetails from '../../../assets/profile-page-header-images/profile-header-details.svg'
 import './ProfilePageHeader.scss'
 
 const ProfilePageHeader = () => {
