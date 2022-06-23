@@ -51,7 +51,7 @@ const PricingCard = () => {
                   </div>
                </div>
             </div>
-         <DownloadButton url='/files/filter-modal.zip' />
+         <DownloadButton url='/files/pricing-card.zip' />
       </div>
    )
 }
