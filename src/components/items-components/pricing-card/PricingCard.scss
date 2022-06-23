@@ -41,5 +41,136 @@
             margin-top: 7px;
          }
       }
+
+      .content-select {
+         display: flex;
+         flex-direction: column;
+         margin-top: 40px;
+
+         .select-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 490px;
+            min-height: 184px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            margin-bottom: 16px;
+
+         .select-item:last-child {
+            margin-bottom: 0px;
+         }
+
+            img {
+               margin: 0 24px 0 42px;
+            }
+
+            .item-information {
+               display: flex;
+               flex-direction: column;
+
+               .information-best-value {
+                  width: 126px;
+                  height: 35px;
+                  background: #2F42EE;
+                  border-radius: 22px;
+                  border: none;
+                  font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 18px;
+                  line-height: 27px;
+                  color: #FFFFFF;
+               }
+
+               .information-period {
+                  font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 18px;
+                  line-height: 27px;
+                  text-transform: uppercase;
+                  color: #0C1033;
+                  margin-top: 5px;
+               }
+
+               .information-free {
+                  font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 24px;
+                  line-height: 36px;
+                  color: #0C1033;
+                  margin-top: 5px;
+               }
+
+               .information-alert {
+                  font-family: 'Poppins';
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 18px;
+                  line-height: 27px;
+                  color: #0C1033;
+                  margin-top: 5px;
+               }
+            }
+         }
+      }
+
+      .content-buttons-block {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-top: 40px;
+
+         .button-continue {
+            width: 350px;
+            height: 75px;
+            background: #0C1033;
+            border-radius: 45px;
+            border: none;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+         }
+
+         .button-paypal {
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 350px;
+            height: 83px;
+            background: #FFFFFF;
+            border: 3px solid #E9EBF8;
+            border-radius: 45px;
+            
+            span {
+               font-family: 'Poppins';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 18px;
+               line-height: 27px;
+               color: #0C1033;
+               margin-right: 10px;
+            }
+         }
+
+         .button-view-more {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            text-decoration-line: underline;
+            color: #2F42EE;
+            border: none;
+            background-color: transparent;
+            margin-top: 40px;
+         }
+      }
    }
 }
